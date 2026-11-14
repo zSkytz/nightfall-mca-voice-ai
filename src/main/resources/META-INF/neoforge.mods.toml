@@ -1,0 +1,37 @@
+modLoader="javafml"
+loaderVersion="[1,)"
+license="MIT"
+
+[[mods]]
+modId="nightfall_voice"
+version="0.2.0-alpha"
+displayName="Nightfall MCA Voice AI Bridge"
+description='''Conversas livres por voz, memoria por NPC e TTS espacial para MCA Reborn com Simple Voice Chat.'''
+
+[[dependencies.nightfall_voice]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.0,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.nightfall_voice]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1,1.21.2)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.nightfall_voice]]
+modId="voicechat_api"
+type="required"
+versionRange="[2.6.20,)"
+ordering="AFTER"
+side="BOTH"
+
+[[dependencies.nightfall_voice]]
+modId="mca"
+type="required"
+versionRange="[7.7.0,)"
+ordering="AFTER"
+side="BOTH"
